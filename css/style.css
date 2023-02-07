@@ -1,4 +1,13 @@
-h3{
+h1{
     color: white;
     background-color: red;
+}
+
+body{
+    /* background-color: black; */
+    background-image: url(../img/image.jpg);
+    /* If Image Show Many Item */
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    
 }
