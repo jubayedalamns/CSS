@@ -1,12 +1,26 @@
-/* p{
-    border-width: 5px;
-    border-style: solid;
-    border-color: red;
-    border-radius: 25px;
-} */
+.margin{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border: 5px solid red ;
+    /*  margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    */
+    margin: 50px 50px;
+}
 
-/* In One Line */
-p{
-    border: 10px solid red;
-    border-radius: 25px;
+.padding{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 5px dotted blue;
+    border-radius: 50%;
+    /* padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px; */
+    /* padding: 100px 100px 100px 100px; */
+    padding: 100px 100px;
 }
