@@ -1,38 +1,20 @@
 
-/* Seudo Class */
-h2:nth-child(3){
-        color: red;
-}
-h2:nth-child(4){
-        color: blue;
-}
-h2:first-child{
-        color: red;
-}
-/* h2:last-child{
-        color: red;
-} */
-h2:last-child {
-        color: red;
-}
 
-h2:nth-child(2n+2){
-        color: blue;
+/*
+Before & After
+*/
+
+.pra::before{
+        content: '';
+        width: 100%;
+        height: 20px;
+        background: black;
+        display: inline-block;
 }
-
-/* Seudo Element */
-
-/* .pra::first-line{
-        color: red;
-        font-size: 30px;
-} */
-
-.pra::first-letter{
-        color: red;
-        font-size: 70px;
+.pra::after{
+        content: '';
+        width: 100%;
+        height: 20px;
+        background: black;
+        display: inline-block;
 }
-
-.pra::selection{
-        color:red;
-}
-
