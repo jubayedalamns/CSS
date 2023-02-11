@@ -1,26 +1,20 @@
-a{
-        font-size: 25px;
-        color: red;
-        text-decoration: none;
-        background-color: blue;   
+li{
+        /* list-style: circle;
+        list-style: square; 
+        list-style: decimal;
+        list-style: lower-roman;
+        list-style: upper-alpha;
+        list-style: upper-latin;
+        list-style: upper-roman;
+        
+        */
+       
+        /* list-style-type: decimal-leading-zero; */
+         list-style-position: inside; /*Defult Outline */
+         /* list-style-image: url(../img/star.jpg); */
+        
+        
 }
-
-a:hover{
-        background-color: aqua;
-        color: black;
-}
-a:active{
-        background-color: black;
-        color: white;
-}
-a:visited{
-        color: black;
-        background-color: red;
-}
-
-
-
-
      
      
      
