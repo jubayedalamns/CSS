@@ -1,20 +1,22 @@
-li{
-        /* list-style: circle;
-        list-style: square; 
-        list-style: decimal;
-        list-style: lower-roman;
-        list-style: upper-alpha;
-        list-style: upper-latin;
-        list-style: upper-roman;
-        
-        */
-       
-        /* list-style-type: decimal-leading-zero; */
-         list-style-position: inside; /*Defult Outline */
-         /* list-style-image: url(../img/star.jpg); */
-        
-        
+/* Block Element Change Inline Elements */
+h1{
+        color: red;
+        /* text-align: center; */
+        display: inline-block;
 }
+
+/* Inline Elements  Change Block Element */
+span{
+        color: rgb(25, 7, 54);
+        display: block;
+        text-align: center;
+}
+
+ul li{
+        display: inline;
+}
+
+
      
      
      
