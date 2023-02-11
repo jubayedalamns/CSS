@@ -1,20 +1,32 @@
-/* Block Element Change Inline Elements */
-h1{
-        color: red;
-        /* text-align: center; */
-        display: inline-block;
+/* use  Width */
+.p1{
+      border: 2px solid red;
+      padding: 10px;
+      width: 500px;
+      margin: auto;
 }
+/* Width Not Working For Responsive */
 
-/* Inline Elements  Change Block Element */
-span{
-        color: rgb(25, 7, 54);
-        display: block;
-        text-align: center;
-}
 
-ul li{
-        display: inline;
-}
+/* use Max Width */
+.p2{
+        border: 2px solid red;
+        padding: 10px;
+        max-width: 500px;
+        margin: auto;
+  }
+/* Max Width Working For Responsive */
+.p3{
+        border: 2px solid red;
+        padding: 10px;
+        max-width: 500px;
+        margin: auto;
+        height: 100px;
+        /* overflow: hidden;  => Remove Other Text */
+        /* overflow: scroll;  */
+        /* overflow: visible; */
+        overflow: scroll;
+  }
 
 
      
