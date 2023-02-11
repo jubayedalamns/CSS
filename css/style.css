@@ -1,54 +1,27 @@
-body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Playfair Display', serif;
+a{
+        font-size: 25px;
+        color: red;
+        text-decoration: none;
+        background-color: blue;   
 }
 
-.text-style{
-   color: black;
-   background-color: #ccc;
-   padding: 50px;
-   font-size: 20px;
-            /*  For Text Style  */
-   /* text-transform: capitalize; */
-   /* text-transform: lowercase; */
-   /* text-transform: uppercase; */
-   /* text-transform: unset; */
-   /* text-transform: inherit; */
-   /* text-transform: initial; */
-   text-transform: none;
-
-            /*  For Space In Starting  */
-   text-indent: 100px;
-            /*  For Spacing  */
-    letter-spacing: 10px;
-    word-spacing: 20px;
-    line-height: 50px;
-
-
-            /*  For Font Style  */
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    /* font-style: normal; */
-
-
-
-            /*  For Font Size Style  */
-    /* font-size: 100px; */
-    /* font-size: 200%; */
-     font-size: 3vw;  /* vw= view port */
-
-     font-size: 3em;
-
-
-
-
-
-     
-     
-     
-     
-       
-
-
+a:hover{
+        background-color: aqua;
+        color: black;
 }
+a:active{
+        background-color: black;
+        color: white;
+}
+a:visited{
+        color: black;
+        background-color: red;
+}
+
+
+
+
+     
+     
+     
+     
