@@ -1,53 +1,23 @@
 
 
 /*
-======================= Annimation ======================
+======================= Flexbox ======================
 */
-.box1{
-        width: 300px;
-        height: 300px;
-        margin: 0 auto;
-        background-color: tomato;
-        position: relative;
-        /* animation-name: square;
-        animation-duration: 5s;
-        animation-timing-function: linear;
-        animation-delay: 2s;
-        animation-direction: alternate;
-        animation-iteration-count: infinite;
-        animation-play-state: running; */
-        animation: square 5s linear 2s infinite alternate running;
-
+.flexbox{
+        background-color: aqua;
+        font-size: 25px;
+        /* For Box in One Line */
+        display: flex;
+        /*  For Responsive */
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        height: 400px;
+        align-items: center;
+}
+.flexbox > div{
+        background-color: gray;
+        margin: 5px;
+        padding: 9px;
 }
 
-@keyframes square{
-        /* from{ background-color: tomato; }
-        to { background-color: blue; } */
-        0%{ 
-                background-color: tomato;
-                left: 0;
-                right: 0;
-        }
-        25% { 
-                background-color: blue; 
-                left: 500px;
-                right: 0px;
-        }
-        50% { 
-                background-color: red; 
-                left: 500px;
-                right: 500px;
-                border-radius: 50%;
-        }
-        75% { 
-                background-color: black; 
-                left: 0;
-                right: 500px;
-        }
-        100% { 
-                background-color: yellow; 
-                left: 0;
-                right: 0;
-                border-radius: 0;
-        }
-}
