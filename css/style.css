@@ -1,54 +1,31 @@
 
 
 /*
-=======================Color======================
+======================= Shadow ======================
 */
 
 h1{
-        color: red;
-}
-
-
-/*
-Rgb Color    (Red + Green + Blue=>Rgb Color ) => max RGB => 255
-*/
-h2{
-        /* color: rgb(red, green, blue); */
-        color:rgb(255, 100, 50);
-
+        font-size: 50px;
+        text-align: center;
+        /* color: red; */
         /*
-                Note : RGB Color Use For Opacity
+        text-shadow: x y blar color;
+        x = work left & right ( + value = Right , - value = Left )
+        y = Work Up & Down (  + value = Down , - value = Up )
+
         */
+        /* text-shadow: 5px 5px 5px red; */
+        text-shadow: 5px 5px 5px;
+        
+
 }
 
-/*
-==> Hexa Decimal Color Code
-*/
-
-p{
-        color: #ccc;
-}
-
-/*
-=======================Gradient======================
-1. Linear Gradient
-2. Radial Gradient
-*/
-
-
-/* Linear Gradient */
 .box1{
         width: 400px;
         height: 400px;
-        /* background: linear-gradient(rgba(255,0,0) 200px , green); */
-        /* background: linear-gradient(to left, rgba(255,0,0) 200px , green); */
-        /* background: linear-gradient(to right, rgba(255,0,0) 200px , green); */
-        /* background: linear-gradient(to top, rgba(255,0,0) 200px , green); */
-        background: linear-gradient(45deg, rgba(255,0,0) 200px , green);
-}
-/* Radial Gradient */
-.box2{
-        width: 400px;
-        height: 400px;
-        background: radial-gradient(red,green );
+        background: yellow;
+        margin: 0 auto;
+        box-shadow: ;
+        border: 2px solid rgb(0, 0, 0 , 0.5);
+        box-shadow: 5px 5px 5px 15px rgb(0, 0, 0 , 0.2);
 }
