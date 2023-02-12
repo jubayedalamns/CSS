@@ -1,31 +1,34 @@
 
 
 /*
-======================= Shadow ======================
+======================= Transform ======================
 */
 
 h1{
-        font-size: 50px;
+        font-size: 30px;
         text-align: center;
-        /* color: red; */
-        /*
-        text-shadow: x y blar color;
-        x = work left & right ( + value = Right , - value = Left )
-        y = Work Up & Down (  + value = Down , - value = Up )
+}
+.box1{
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        background: linear-gradient(to left, red,green  50%);
+        position: relative;
 
-        */
-        /* text-shadow: 5px 5px 5px red; */
-        text-shadow: 5px 5px 5px;
-        
-
+        /* transform: rotate(50deg); */
+        /* transform: rotate(-50deg); */
+        /* transform: scale(2); */
+        /* transform: scaleX(2); */
+        transform: skew(45deg);
 }
 
-.box1{
-        width: 400px;
-        height: 400px;
-        background: yellow;
-        margin: 0 auto;
-        box-shadow: ;
-        border: 2px solid rgb(0, 0, 0 , 0.5);
-        box-shadow: 5px 5px 5px 15px rgb(0, 0, 0 , 0.2);
+.box2{
+        position:relative;
+        text-align: center;
+        top: 45%;
+}
+.box2 h4{
+        color: white;
+        font-size: 30px;
+        transform: rotate(-50deg);
 }
