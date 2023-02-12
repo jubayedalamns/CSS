@@ -1,23 +1,31 @@
 
-
+*{
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #eee;
+        
+}
 /*
-======================= Flexbox ======================
+======================= Grids System ======================
 */
-.flexbox{
-        background-color: aqua;
-        font-size: 25px;
-        /* For Box in One Line */
-        display: flex;
-        /*  For Responsive */
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        height: 400px;
-        align-items: center;
-}
-.flexbox > div{
-        background-color: gray;
-        margin: 5px;
-        padding: 9px;
-}
 
+main{
+        width: 75%;
+        text-align: center;
+        margin: 10px auto;
+        border: 2px solid #ddd;
+        color: #fff;
+        display: grid;
+        grid-template-rows: 60px 100px 200px 60px;
+        grid-template-columns: repeat(3, 1fr) 150px ;
+        grid-gap: 10px;
+
+}
+.box1{background-color:#FF5733; grid-column: 1/-1;}
+.box2{background-color: #2656BC;}
+.box3{background-color: #BCBB26;}
+.box4{background-color: #A3BC26;}
+.box5{background-color: #26B0BC; grid-row: 2/4; grid-column: 4/5;}
+.box6{background-color: #4DBC26; grid-column: 1/4;}
+.box7{background-color: #26BC83; grid-column: 1/-1;}
