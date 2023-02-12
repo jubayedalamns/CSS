@@ -1,22 +1,53 @@
 
 
 /*
-======================= Transition ======================
+======================= Annimation ======================
 */
 .box1{
         width: 300px;
         height: 300px;
         margin: 0 auto;
         background-color: tomato;
+        position: relative;
+        /* animation-name: square;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-play-state: running; */
+        animation: square 5s linear 2s infinite alternate running;
+
 }
-.box1:hover{
-        width: 500px;
-        height: 500px;
-        /* transition-delay: 3s;
-        transition-property: width;
-        transition-duration: 5s; */
-        transition: all 0.5s linear;
-        border-radius: 50%;
-        background-color: green;
-        transform: rotate(180deg);
+
+@keyframes square{
+        /* from{ background-color: tomato; }
+        to { background-color: blue; } */
+        0%{ 
+                background-color: tomato;
+                left: 0;
+                right: 0;
+        }
+        25% { 
+                background-color: blue; 
+                left: 500px;
+                right: 0px;
+        }
+        50% { 
+                background-color: red; 
+                left: 500px;
+                right: 500px;
+                border-radius: 50%;
+        }
+        75% { 
+                background-color: black; 
+                left: 0;
+                right: 500px;
+        }
+        100% { 
+                background-color: yellow; 
+                left: 0;
+                right: 0;
+                border-radius: 0;
+        }
 }
