@@ -1,20 +1,54 @@
 
 
 /*
-Before & After
+=======================Color======================
 */
 
-.pra::before{
-        content: '';
-        width: 100%;
-        height: 20px;
-        background: black;
-        display: inline-block;
+h1{
+        color: red;
 }
-.pra::after{
-        content: '';
-        width: 100%;
-        height: 20px;
-        background: black;
-        display: inline-block;
+
+
+/*
+Rgb Color    (Red + Green + Blue=>Rgb Color ) => max RGB => 255
+*/
+h2{
+        /* color: rgb(red, green, blue); */
+        color:rgb(255, 100, 50);
+
+        /*
+                Note : RGB Color Use For Opacity
+        */
+}
+
+/*
+==> Hexa Decimal Color Code
+*/
+
+p{
+        color: #ccc;
+}
+
+/*
+=======================Gradient======================
+1. Linear Gradient
+2. Radial Gradient
+*/
+
+
+/* Linear Gradient */
+.box1{
+        width: 400px;
+        height: 400px;
+        /* background: linear-gradient(rgba(255,0,0) 200px , green); */
+        /* background: linear-gradient(to left, rgba(255,0,0) 200px , green); */
+        /* background: linear-gradient(to right, rgba(255,0,0) 200px , green); */
+        /* background: linear-gradient(to top, rgba(255,0,0) 200px , green); */
+        background: linear-gradient(45deg, rgba(255,0,0) 200px , green);
+}
+/* Radial Gradient */
+.box2{
+        width: 400px;
+        height: 400px;
+        background: radial-gradient(red,green );
 }
